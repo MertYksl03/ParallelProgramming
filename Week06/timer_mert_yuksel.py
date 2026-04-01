@@ -2,7 +2,7 @@ from time import time as tm
 
 class Timer:
 
-    def __enter__(self) -> Timer: 
+    def __enter__(self): 
         self.start_time = tm()
         return self
 
